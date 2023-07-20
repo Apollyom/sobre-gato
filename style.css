@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+}
+
+.foto1 {
+    position: absolute;
+    top:103px;
+    left:104px;
+}
+
+.foto2 {
+    position:absolute;
+    top:202px;
+    left:256px;
+    z-index: 1;
+}
+
+.foto3 {
+    position:absolute;
+    top:301px;
+    left:408px;
+    z-index: 2;
+}
+
+.foto4 {
+    position:absolute;
+    top:400px;
+    left: 544px;
+    z-index: 3;
+}
+
